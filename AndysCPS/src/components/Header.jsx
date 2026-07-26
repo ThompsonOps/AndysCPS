@@ -12,7 +12,7 @@ export default function Header() {
         
         <div className="flex items-center space-x-3 sm:space-x-4 md:space-x-5 transition-all duration-300">
           <img 
-            src="images/12618.png" 
+            src={`${import.meta.env.BASE_URL}images/12618.png`}
             alt="Andy's Plumbing Logo" 
             className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-md object-cover ring-2 ring-blue-500/10 transition-all duration-300" 
           />
